@@ -1,0 +1,75 @@
+body{
+    font-size: 18px;
+    background-color: rgb(128, 250, 250);
+    display: flex;
+    justify-content: center;
+
+    scroll-behavior: smooth;
+}
+
+nav{
+    padding: 1rem 0px;
+    margin-bottom: 4rem;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+    border: ridge 5px #303030;
+}
+
+a:hover{
+    border-color: red;
+    color: red;
+}
+
+.app{
+    max-width: 1000px;
+    padding: 3rem 3rem;
+    background-color: white;
+    border-radius: 1rem;
+}
+
+
+.artigo{
+    margin-bottom: 2rem;
+}
+
+.artigo img{
+    border: ridge 10px #303030;
+    max-height: 350px;
+    max-width: 50%;
+
+    object-fit: cover;
+}
+
+.content{
+    display: flex;
+}
+
+.artigo__image__left{
+    margin-right: 3rem;
+}
+
+.artigo__image__right{    
+    margin-left: 3rem;
+}
+
+.galeria{
+    width: 100%;
+    height: 300px;
+
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1fr; 
+    gap: 0px 14px; 
+    grid-template-areas: 
+      ". . . ."; 
+}
+
+.galeria img{
+    max-width: 90%;
+    max-height: 90%;
+    margin: auto;
+}
