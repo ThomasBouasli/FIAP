@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class EletronicJudge {
+public class ElectronicJudge {
 
     private static Team[] teams;
     private static final Scanner keyboard = new Scanner(System.in);
@@ -9,10 +9,10 @@ public class EletronicJudge {
 
     public static void main(String[] args) {
 
-        getTeams();
-        sortTeams();
+//        getTeams();
+//        sortTeams();
 
-        //test_sort_algorithm();
+        test_sort_algorithm();
     }
 
 
@@ -52,7 +52,7 @@ public class EletronicJudge {
         }
 
         for (int i = 0; i < teams.length; i++) {
-            System.out.println(teams[i].name + " | pontos " + teams[i].score + " | partidas" + Arrays.toString(teams[i].matchesResults) + " | notas" + teams[i].grade );
+            System.out.println(teams[i].name + " | pontos: " + teams[i].score + " | partidas: " + Arrays.toString(teams[i].matchesResults) + " | notas: " + teams[i].grade );
         }
 
     }
@@ -91,11 +91,11 @@ public class EletronicJudge {
 
         teams = new Team[5];
 
-        teams[0] = new Team("time 1", 10, new String[]{"V", "V", "V"});
-        teams[1] = new Team("time 2", 9, new String[]{"V", "V", "V"});
-        teams[2] = new Team("time 3", 10, new String[]{"V", "E", "E"});
-        teams[3] = new Team("time 4", 10, new String[]{"V", "E", "D"});
-        teams[4] = new Team("time 5", 10, new String[]{"V", "D", "E"});
+        teams[0] = new Team("time 1", 8, new String[]{"V","V","D","D","D"});
+        teams[1] = new Team("time 2", 10, new String[]{"D", "V", "V"});
+        teams[2] = new Team("time 3", 2, new String[]{"D", "V"});
+        teams[3] = new Team("time 4", 5, new String[]{"V", "V", "E"});
+        teams[4] = new Team("time 5", 7, new String[]{"E", "V", "D"});
 
         sortTeams();
     }
