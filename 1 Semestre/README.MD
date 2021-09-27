@@ -1,0 +1,1 @@
+# Eu deletei tudo porque honestamente nada de relevante aconteceu nesse periodo
