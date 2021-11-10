@@ -1,23 +1,23 @@
 import java.util.ArrayList;
 
 public class Model {
-    public static ArrayList<Animal> Database = new ArrayList<Animal>();
+    private static ArrayList<String[]> Database = new ArrayList<String[]>();
 
 
-    public static void addAnimal(Animal animal) {
+    public static void addAnimal(String[] animal) {
         Database.add(animal);
     }
 
-    public static ArrayList<Animal> getDatabase() {
+    public static ArrayList<String[]> getDatabase() {
         return Database;
     }
     
-    public static Animal getAnimalByCode(String code) throws Exception {
+    public static String[] getAnimalByCode(String code) throws Exception {
         
-        Animal match = null;
+        String[] match = null;
 
-        for (Animal animal : Database) {
-            if (animal.decryptedCode.equals(code)) {
+        for (String[] animal : Database) {
+            if (animal[0].equals(code)) {
                 match = animal;
                 break;
             }
