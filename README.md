@@ -9,12 +9,12 @@ Monorepositório com os projetos desenvolvidos durante ou para as aulas.
 
 ## Projetos do Curso
 
-### 1º Semestre
+### 1º Semestre (EAD)
 
 Eu não achava que valia a pena guardar os projetos nessa época
 
 
-### 2º Semestre
+### 2º Semestre (EAD)
 
 | Projetos | Típo     | Matéria                       | Descrição                       |
 | :-------- | :------- | :-------------------------------- |:-------------------------------- |
