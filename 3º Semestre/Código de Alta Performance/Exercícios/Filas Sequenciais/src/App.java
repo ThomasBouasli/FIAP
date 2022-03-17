@@ -1,16 +1,17 @@
-import java.util.LinkedList;
-import java.util.Queue;
+import Queue.IntegerQueue;
 
-public class App {
-    private static Queue<String> queue = new LinkedList<String>();
-    public static void main(String[] args) throws Exception {
-        queue.add("1");
-        queue.add("2");
-        queue.add("3");
-        System.out.println(queue);
-        queue.remove();
-        System.out.println(queue);
-        queue.remove();
-        System.out.println(queue);
+public class App{
+
+    private static IntegerQueue queue = new IntegerQueue();
+    public static void main(String[] args) {
+        queue.init();
+        queue.enqueue(1);
+        queue.enqueue(2);
+        queue.enqueue(3);
+        queue.dequeue();
+        queue.enqueue(4);
+        queue.dequeue();
+        queue.dequeue();
+
     }
 }
