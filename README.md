@@ -25,3 +25,9 @@ Eu não achava que valia a pena guardar os projetos nessa época
 | [Exercício 3](https://github.com/ThomasBouasli/FIAP/tree/master/2%C2%BA%20Semestre/Laborat%C3%B3rio%20de%20Programa%C3%A7%C3%A3o/Sprints/Sprint%203) | `Sprint` | [Laboratório de Programação](https://github.com/ThomasBouasli/FIAP/tree/master/2%C2%BA%20Semestre/Laborat%C3%B3rio%20de%20Programa%C3%A7%C3%A3o) |  |
 | [Sistema de Gerenciamento para Pecuária](https://github.com/ThomasBouasli/FIAP/tree/master/2%C2%BA%20Semestre/Laborat%C3%B3rio%20de%20Programa%C3%A7%C3%A3o/Global%20Solution) | `Global Solution` | [Laboratório de Programação](https://github.com/ThomasBouasli/FIAP/tree/master/2%C2%BA%20Semestre/Laborat%C3%B3rio%20de%20Programa%C3%A7%C3%A3o) | Aplicativo CLI para controle de animais |
 | [Sistema de Gerenciamento de Funcionários](https://github.com/ThomasBouasli/FIAP/tree/master/2%C2%BA%20Semestre/Laborat%C3%B3rio%20de%20Programa%C3%A7%C3%A3o/Checkpoints/1) | `Checkpoint` | [Laboratório de Programação](https://github.com/ThomasBouasli/FIAP/tree/master/2%C2%BA%20Semestre/Laborat%C3%B3rio%20de%20Programa%C3%A7%C3%A3o) | 	Aplicativo CLI para controle de salários |
+
+### 3º Semestre (Presencial)
+
+| Projetos | Típo     | Matéria                       | Descrição                       |
+| :-------- | :------- | :-------------------------------- |:-------------------------------- |
+| [Sprint 1](https://github.com/ThomasBouasli/FIAP/tree/master/3%C2%BA%20Semestre/C%C3%B3digo%20de%20Alta%20Performance/Sprint%201)      | `Sprint` | [Codigo](https://github.com/ThomasBouasli/FIAP/tree/master/3%C2%BA%20Semestre/C%C3%B3digo%20de%20Alta%20Performance) | Serviço de SAC para o Banco Pan |
