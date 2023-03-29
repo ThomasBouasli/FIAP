@@ -1,0 +1,3 @@
+[submodule "fiap_flutter_stateful"]
+	path = fiap_flutter_stateful
+	url = git@personal:ThomasBouasli/fiap_flutter_stateful.git
